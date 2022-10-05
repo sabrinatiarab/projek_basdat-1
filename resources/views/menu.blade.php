@@ -130,14 +130,14 @@
                       >Veggies</a
                     >
                     <div class="dropdown-menu">
-                      <a class="dropdown-item">Lettuce</a>
-                      <a class="dropdown-item">Tomatoes</a>
-                      <a class="dropdown-item">Cucumbers</a>
-                      <a class="dropdown-item">Pickles</a>
-                      <a class="dropdown-item">Green Peppers</a>
-                      <a class="dropdown-item">Olives</a>
-                      <a class="dropdown-item">White Onions</a>
-                      <a class="dropdown-item">No Veggies</a>
+                      <a class="dropdown-item" type= "checkbox" name="sayur" value= "lettuce">Lettuce</a>
+                      <a class="dropdown-item" type= "checkbox" name="sayur" value= "tomatoes">Tomatoes</a>
+                      <a class="dropdown-item" type= "checkbox" name="sayur" value= "cucumber">Cucumbers</a>
+                      <a class="dropdown-item" type= "checkbox" name="sayur" value= "pickles">Pickles</a>
+                      <a class="dropdown-item" type= "checkbox" name="sayur" value= "green_peppers">Green Peppers</a>
+                      <a class="dropdown-item" type= "checkbox" name="sayur" value= "olive">Olives</a>
+                      <a class="dropdown-item" type= "checkbox" name="sayur" value= "white_onions">White Onions</a>
+                      <a class="dropdown-item" type= "checkbox" name="sayur" value= "no_veggies">No Veggies</a>
                     </div>
                   </div>
                   <div class="nav-item dropdown">
@@ -148,14 +148,14 @@
                       >Sauce</a
                     >
                     <div class="dropdown-menu">
-                      <a class="dropdown-item">Honey Mustard</a>
-                      <a class="dropdown-item">Sweet Onion</a>
-                      <a class="dropdown-item">Chipotle Southwest</a>
-                      <a class="dropdown-item">Mayonnaise</a>
-                      <a class="dropdown-item">BBQ Sauce</a>
-                      <a class="dropdown-item">Tomato Sauce</a>
-                      <a class="dropdown-item">Thousand Island Dressing</a>
-                      <a class="dropdown-item">Hot Chilli Sauce</a>
+                      <a class="dropdown-item" type= "checkbox" name="saus" value= "honey_mustard">Honey Mustard</a>
+                      <a class="dropdown-item" type= "checkbox" name="saus" value= "sweet_onion">Sweet Onion</a>
+                      <a class="dropdown-item" type= "checkbox" name="saus" value= "chipotle_southwest">Chipotle Southwest</a>
+                      <a class="dropdown-item" type= "checkbox" name="saus" value= "mayonnaise">Mayonnaise</a>
+                      <a class="dropdown-item" type= "checkbox" name="saus" value= "bbq_sauce">BBQ Sauce</a>
+                      <a class="dropdown-item" type= "checkbox" name="saus" value= "tomato_sauce">Tomato Sauce</a>
+                      <a class="dropdown-item" type= "checkbox" name="saus" value= "thousand_island_dressing">Thousand Island Dressing</a>
+                      <a class="dropdown-item" type= "checkbox" name="saus" value= "hot_chilli_sauce">Hot Chilli Sauce</a>
                     </div>
                   </div>
                 <div class="col-lg-5 d-none d-lg-block">
