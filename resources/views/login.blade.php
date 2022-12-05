@@ -18,7 +18,7 @@
           <div class="col-lg-7">
             <div class="booking-content">
               <div class="section-header">
-                <p>Account</p>
+                <p>Login Account</p>
                 <h2>Please input your email and password</h2>
               </div>
             </div>
@@ -61,10 +61,17 @@
                       type="submit">
                       Login
                     </button>
+                    <a href="{{url('/password')}}"
+                    class="btn custom-btn"
+                    class="float-left"
+                    href="">
+                    Lupa Password
+                  </a>
                     <hg2>or you dont have an account ? </hg2>
                     <a
                       href="{{url('/signup')}}"
                       class="btn custom-btn"
+                      class="float-right"
                       href="">
                       Sign Up
                     </a> 

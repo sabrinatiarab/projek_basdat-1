@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\OrderDetailController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -37,6 +39,34 @@ Route::get('/cart', function () {
 Route::get('/account', function () {
     return view('account');
 });
+Route::get('/pemesanan', function () {
+    return view('pemesanan');
+});
+Route::get('/sandwich', function () {
+    return view('sandwich');
+});
+
+// });
+// // Route::post('sandwich_detail', [OrderDetailController::class, 'getData']);
+
+// Route::post('sandwich_detal', function (){
+//     OrderDetail::create([
+//         'bread' -> request('bread'),
+//         'size' -> request('size'),
+//         'extras' -> request('extras'),
+//         'veggies' -> reqest('veggies'),
+//         'sauces' -> request('sauces')
+//     ]);
+//     return redirect('/sandwich_detal');
+//     return view('sandwich_detail');
+// });
+
+// });
+Route::get('/', [OrderDetailController::class, "index"]);
+Route::post('/sandwich_detail', [OrderDetailController::class, "store"]);
+
+
+
 Route::get('/daftar_pegawai', function () {
     return view('/daftar_pegawai');
 });
@@ -49,3 +79,4 @@ Route::get('/tambah_pegawai', function () {
 Route::get('/tambah_alamat', function () {
     return view('/tambah_alamat');
 });
+
