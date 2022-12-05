@@ -67,14 +67,14 @@ Route::get('/beverages', function () {
 // });
 
 // });
-Route::get('/sandwich_detail', [OrderDetailController::class, "index"]);
-Route::post('/sandwich_detail', [OrderDetailController::class, "store"]);
+Route::get('/sandwich_detail', [SandwichDetailController::class, "index"]);
+Route::post('/sandwich_detail', [SandwichDetailController::class, "store"]);
 
-Route::get('/sides', [OrderDetailController::class, "index"]);
-Route::post('/sides', [OrderDetailController::class, "store"]);
+// Route::get('/sides', [OrderDetailController::class, "index"]);
+// Route::post('/sides', [OrderDetailController::class, "store"]);
 
-Route::get('/beverages', [OrderDetailController::class, "index"]);
-Route::post('/beverages', [OrderDetailController::class, "store"]);
+// Route::get('/beverages', [OrderDetailController::class, "index"]);
+// Route::post('/beverages', [OrderDetailController::class, "store"]);
 
 Route::get('/daftar_pegawai', function () {
     return view('/daftar_pegawai');
