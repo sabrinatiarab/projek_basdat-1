@@ -62,7 +62,7 @@ Route::get('/sandwich', function () {
 // });
 
 // });
-Route::get('/', [OrderDetailController::class, "index"]);
+Route::get('/sandwich_detail', [OrderDetailController::class, "index"]);
 Route::post('/sandwich_detail', [OrderDetailController::class, "store"]);
 
 
