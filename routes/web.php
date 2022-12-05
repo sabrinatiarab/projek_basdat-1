@@ -45,7 +45,12 @@ Route::get('/pemesanan', function () {
 Route::get('/sandwich', function () {
     return view('sandwich');
 });
-
+Route::get('/sides', function () {
+    return view('snack');
+});
+Route::get('/beverages', function () {
+    return view('beverages');
+});
 // });
 // // Route::post('sandwich_detail', [OrderDetailController::class, 'getData']);
 
