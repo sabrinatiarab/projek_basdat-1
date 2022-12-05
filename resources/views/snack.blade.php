@@ -15,276 +15,278 @@
       </div>
     </div>
     <!-- Page Header End -->
+	<hr>
 
-    <div class="container">
-		<div class="row align-items-center">
-			<!-- Awal slot produk -->
+	<form action="/snack" method="POST">
+		@csrf
+		@method('post')
+		<div class="container">
+			<div class="row align-items-center">
+				<!-- Awal slot produk -->
 
-			<!-- Pemisah per produk -->
-			<form method="post" action="/cart">
-			<div class="col-md-4">
-				<a href="" class="hvnb">
-					<div class="list-group shadow-sm">
-						<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/1.jpg);">
-						</div>
-						<div class="list-group-item">
-							<div class="mb-2">
-								<span class="active text-website">Rp19.500</span>
+				<!-- Pemisah per produk -->
+				<div class="col-md-4">
+						<div class="list-group shadow-sm">
+							<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/2.jpg);">
 							</div>
-							<p class="card-text text-dark">Oatmeal Raisin Cookies</p>
-							<div class="input-group mb-3">
-									<div class="input-group-prepend">
-										<button class="input-group-text" id="decrement">-</button>
-									</div>
-									<input type="text" class="form-control" value="1">
-									<div class="input-group-append">
-										<button id="increment" class="input-group-text">+</button>
-									</div>
+							<div class="list-group-item">
+								<div class="mb-2">
+									<span class="active text-website">Rp19.500</span>
+								</div>
+								<p class="card-text text-dark">Oatmeal Raisin Cookies</p>
+								<div class="input-group mb-3">
+										<div class="input-group-prepend">
+											<button id="decrement"  class="input-group-text">-</button>
+										</div>
+										<input type="text" class="form-control" value="1">
+										<div class="input-group-append">
+											<button id="increment" class="input-group-text">+</button>
+										</div>
+								</div>
+							</div>
+							<div class="list-group-item btn-outline-success pl-3">
+								Add to Cart
 							</div>
 						</div>
-						<div class="list-group-item btn-outline-success pl-3">
-							Add to Cart
-							<input type="submit" value="Submit">
+					</a>
+				</div>
+				<!-- Pemisah per produk -->
+
+				<!-- Pemisah per produk -->
+				<div class="col-md-4">
+						<div class="list-group shadow-sm">
+							<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/2.jpg);">
+							</div>
+							<div class="list-group-item">
+								<div class="mb-2">
+									<span class="active text-website">Rp19.500</span>
+								</div>
+								<p class="card-text text-dark">Chocolate Chip Cookie</p>
+								<div class="input-group mb-3">
+										<div class="input-group-prepend">
+											<button id="decrement"  class="input-group-text">-</button>
+										</div>
+										<input type="text" class="form-control" value="1">
+										<div class="input-group-append">
+											<button id="increment" class="input-group-text">+</button>
+										</div>
+								</div>
+							</div>
+							<div class="list-group-item btn-outline-success pl-3">
+								Add to Cart
+							</div>
 						</div>
-					</div>
-				</a>
+					</a>
+				</div>
+				<!-- Pemisah per produk -->
+
+				<!-- Pemisah per produk -->
+				<div class="col-md-4">
+					<a href="" class="hvnb">
+						<div class="list-group shadow-sm">
+							<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/3.jpg);">
+							</div>
+							<div class="list-group-item">
+								<div class="mb-2">
+									<span class="active text-website">Rp19.500</span>
+								</div>
+								<p class="card-text text-dark">Double Chocolate Chip Cookie</p>
+								<div class="input-group mb-3">
+										<div class="input-group-prepend">
+											<button class="input-group-text">-</button>
+										</div>
+										<input type="text" class="form-control" value="1">
+										<div class="input-group-append">
+											<button class="input-group-text">+</button>
+										</div>
+								</div>
+							</div>
+							<div class="list-group-item btn-outline-success pl-3">
+								Add to Cart
+							</div>
+						</div>
+					</a>
+				</div>
+				<!-- Pemisah per produk -->
+
+				<!-- Pemisah per produk -->
+				<div class="col-md-4">
+					<a href="" class="hvnb">
+						<div class="list-group shadow-sm">
+							<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/4.jpg);">
+							</div>
+							<div class="list-group-item">
+								<div class="mb-2">
+									<span class="active text-website">Rp19.500</span>
+								</div>
+								<p class="card-text text-dark">White Chip Macadamia Nut Cookie</p>
+								<div class="input-group mb-3">
+										<div class="input-group-prepend">
+											<button class="input-group-text">-</button>
+										</div>
+										<input type="text" class="form-control" value="1">
+										<div class="input-group-append">
+											<button class="input-group-text">+</button>
+										</div>
+								</div>
+							</div>
+							<div class="list-group-item btn-outline-success pl-3">
+								Add to Cart
+							</div>
+						</div>
+					</a>
+				</div>
+				<!-- Pemisah per produk -->
+
+				<!-- Pemisah per produk -->
+				<div class="col-md-4">
+					<a href="" class="hvnb">
+						<div class="list-group shadow-sm">
+							<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/5.jpg);">
+							</div>
+							<div class="list-group-item">
+								<div class="mb-2">
+									<span class="active text-website">Rp17.500</span>
+								</div>
+								<p class="card-text text-dark">Chicken Slice and Cheese</p>
+								<div class="input-group mb-3">
+										<div class="input-group-prepend">
+											<button class="input-group-text">-</button>
+										</div>
+										<input type="text" class="form-control" value="1">
+										<div class="input-group-append">
+											<button class="input-group-text">+</button>
+										</div>
+								</div>
+							</div>
+							<div class="list-group-item btn-outline-success pl-3">
+								Add to Cart
+							</div>
+						</div>
+					</a>
+				</div>
+				<!-- Pemisah per produk -->
+
+				<!-- Pemisah per produk -->
+				<div class="col-md-4">
+					<a href="" class="hvnb">
+						<div class="list-group shadow-sm">
+							<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/6.jpg);">
+							</div>
+							<div class="list-group-item">
+								<div class="mb-2">
+									<span class="active text-website">Rp17.500</span>
+								</div>
+								<p class="card-text text-dark">Egg Mayo Toasty</p>
+								<div class="input-group mb-3">
+										<div class="input-group-prepend">
+											<button class="input-group-text">-</button>
+										</div>
+										<input type="text" class="form-control" value="1">
+										<div class="input-group-append">
+											<button class="input-group-text">+</button>
+										</div>
+								</div>
+							</div>
+							<div class="list-group-item btn-outline-success pl-3">
+								Add to Cart
+							</div>
+						</div>
+					</a>
+				</div>
+				<!-- Pemisah per produk -->
+
+				<!-- Pemisah per produk -->
+				<div class="col-md-4">
+					<a href="" class="hvnb">
+						<div class="list-group shadow-sm">
+							<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/7.jpg);">
+							</div>
+							<div class="list-group-item">
+								<div class="mb-2">
+									<span class="active text-website">Rp17.500</span>
+								</div>
+								<p class="card-text text-dark">Pringles Original</p>
+								<div class="input-group mb-3">
+										<div class="input-group-prepend">
+											<button class="input-group-text">-</button>
+										</div>
+										<input type="text" class="form-control" value="1">
+										<div class="input-group-append">
+											<button class="input-group-text">+</button>
+										</div>
+								</div>
+							</div>
+							<div class="list-group-item btn-outline-success pl-3">
+								Add to Cart
+							</div>
+						</div>
+					</a>
+				</div>
+				<!-- Pemisah per produk -->
+
+				<!-- Pemisah per produk -->
+				<div class="col-md-4">
+					<a href="" class="hvnb">
+						<div class="list-group shadow-sm">
+							<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/8.jpg);">
+							</div>
+							<div class="list-group-item">
+								<div class="mb-2">
+									<span class="active text-website">Rp17.500</span>
+								</div>
+								<p class="card-text text-dark">Pringles Sour Cream and Onion</p>
+								<div class="input-group mb-3">
+										<div class="input-group-prepend">
+											<button class="input-group-text">-</button>
+										</div>
+										<input type="text" class="form-control" value="1">
+										<div class="input-group-append">
+											<button class="input-group-text">+</button>
+										</div>
+								</div>
+							</div>
+							<div class="list-group-item btn-outline-success pl-3">
+								Add to Cart
+							</div>
+						</div>
+					</a>
+				</div>
+				<!-- Pemisah per produk -->
+
+				<!-- Pemisah per produk -->
+				<div class="col-md-4">
+					<a href="" class="hvnb">
+						<div class="list-group shadow-sm">
+							<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/8.jpg);">
+							</div>
+							<div class="list-group-item">
+								<div class="mb-2">
+									<span class="active text-website">Rp29.500</span>
+								</div>
+								<p class="card-text text-dark">Mushroom Soup</p>
+								<div class="input-group mb-3">
+										<div class="input-group-prepend">
+											<button class="input-group-text">-</button>
+										</div>
+										<input type="text" class="form-control" value="1">
+										<div class="input-group-append">
+											<button class="input-group-text">+</button>
+										</div>
+								</div>
+							</div>
+							<div class="list-group-item btn-outline-success pl-3">
+								Add to Cart
+							</div>
+						</div>
+					</a>
+				</div>
+				<!-- Pemisah per produk -->
+
+				<!-- Akhir slot produk -->
 			</div>
-			</form>
-			<!-- Pemisah per produk -->
-
-			<!-- Pemisah per produk -->
-			<div class="col-md-4">
-					<div class="list-group shadow-sm">
-						<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/2.jpg);">
-						</div>
-						<div class="list-group-item">
-							<div class="mb-2">
-								<span class="active text-website">Rp19.500</span>
-							</div>
-							<p class="card-text text-dark">Chocolate Chip Cookie</p>
-							<div class="input-group mb-3">
-									<div class="input-group-prepend">
-										<button id="decrement"  class="input-group-text">-</button>
-									</div>
-									<input type="text" class="form-control" value="1">
-									<div class="input-group-append">
-										<button id="increment" class="input-group-text">+</button>
-									</div>
-							</div>
-						</div>
-						<div class="list-group-item btn-outline-success pl-3">
-							Add to Cart
-						</div>
-					</div>
-				</a>
-			</div>
-			<!-- Pemisah per produk -->
-
-			<!-- Pemisah per produk -->
-			<div class="col-md-4">
-				<a href="" class="hvnb">
-					<div class="list-group shadow-sm">
-						<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/3.jpg);">
-						</div>
-						<div class="list-group-item">
-							<div class="mb-2">
-								<span class="active text-website">Rp19.500</span>
-							</div>
-							<p class="card-text text-dark">Double Chocolate Chip Cookie</p>
-							<div class="input-group mb-3">
-									<div class="input-group-prepend">
-										<button class="input-group-text">-</button>
-									</div>
-									<input type="text" class="form-control" value="1">
-									<div class="input-group-append">
-										<button class="input-group-text">+</button>
-									</div>
-							</div>
-						</div>
-						<div class="list-group-item btn-outline-success pl-3">
-							Add to Cart
-						</div>
-					</div>
-				</a>
-			</div>
-			<!-- Pemisah per produk -->
-
-			<!-- Pemisah per produk -->
-			<div class="col-md-4">
-				<a href="" class="hvnb">
-					<div class="list-group shadow-sm">
-						<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/4.jpg);">
-						</div>
-						<div class="list-group-item">
-							<div class="mb-2">
-								<span class="active text-website">Rp19.500</span>
-							</div>
-							<p class="card-text text-dark">White Chip Macadamia Nut Cookie</p>
-							<div class="input-group mb-3">
-									<div class="input-group-prepend">
-										<button class="input-group-text">-</button>
-									</div>
-									<input type="text" class="form-control" value="1">
-									<div class="input-group-append">
-										<button class="input-group-text">+</button>
-									</div>
-							</div>
-						</div>
-						<div class="list-group-item btn-outline-success pl-3">
-							Add to Cart
-						</div>
-					</div>
-				</a>
-			</div>
-			<!-- Pemisah per produk -->
-
-			<!-- Pemisah per produk -->
-			<div class="col-md-4">
-				<a href="" class="hvnb">
-					<div class="list-group shadow-sm">
-						<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/5.jpg);">
-						</div>
-						<div class="list-group-item">
-							<div class="mb-2">
-								<span class="active text-website">Rp17.500</span>
-							</div>
-							<p class="card-text text-dark">Chicken Slice and Cheese</p>
-							<div class="input-group mb-3">
-									<div class="input-group-prepend">
-										<button class="input-group-text">-</button>
-									</div>
-									<input type="text" class="form-control" value="1">
-									<div class="input-group-append">
-										<button class="input-group-text">+</button>
-									</div>
-							</div>
-						</div>
-						<div class="list-group-item btn-outline-success pl-3">
-							Add to Cart
-						</div>
-					</div>
-				</a>
-			</div>
-			<!-- Pemisah per produk -->
-
-			<!-- Pemisah per produk -->
-			<div class="col-md-4">
-				<a href="" class="hvnb">
-					<div class="list-group shadow-sm">
-						<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/6.jpg);">
-						</div>
-						<div class="list-group-item">
-							<div class="mb-2">
-								<span class="active text-website">Rp17.500</span>
-							</div>
-							<p class="card-text text-dark">Egg Mayo Toasty</p>
-							<div class="input-group mb-3">
-									<div class="input-group-prepend">
-										<button class="input-group-text">-</button>
-									</div>
-									<input type="text" class="form-control" value="1">
-									<div class="input-group-append">
-										<button class="input-group-text">+</button>
-									</div>
-							</div>
-						</div>
-						<div class="list-group-item btn-outline-success pl-3">
-							Add to Cart
-						</div>
-					</div>
-				</a>
-			</div>
-			<!-- Pemisah per produk -->
-
-			<!-- Pemisah per produk -->
-			<div class="col-md-4">
-				<a href="" class="hvnb">
-					<div class="list-group shadow-sm">
-						<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/7.jpg);">
-						</div>
-						<div class="list-group-item">
-							<div class="mb-2">
-								<span class="active text-website">Rp17.500</span>
-							</div>
-							<p class="card-text text-dark">Pringles Original</p>
-							<div class="input-group mb-3">
-									<div class="input-group-prepend">
-										<button class="input-group-text">-</button>
-									</div>
-									<input type="text" class="form-control" value="1">
-									<div class="input-group-append">
-										<button class="input-group-text">+</button>
-									</div>
-							</div>
-						</div>
-						<div class="list-group-item btn-outline-success pl-3">
-							Add to Cart
-						</div>
-					</div>
-				</a>
-			</div>
-			<!-- Pemisah per produk -->
-
-			<!-- Pemisah per produk -->
-			<div class="col-md-4">
-				<a href="" class="hvnb">
-					<div class="list-group shadow-sm">
-						<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/8.jpg);">
-						</div>
-						<div class="list-group-item">
-							<div class="mb-2">
-								<span class="active text-website">Rp17.500</span>
-							</div>
-							<p class="card-text text-dark">Pringles Sour Cream and Onion</p>
-							<div class="input-group mb-3">
-									<div class="input-group-prepend">
-										<button class="input-group-text">-</button>
-									</div>
-									<input type="text" class="form-control" value="1">
-									<div class="input-group-append">
-										<button class="input-group-text">+</button>
-									</div>
-							</div>
-						</div>
-						<div class="list-group-item btn-outline-success pl-3">
-							Add to Cart
-						</div>
-					</div>
-				</a>
-			</div>
-			<!-- Pemisah per produk -->
-
-			<!-- Pemisah per produk -->
-			<div class="col-md-4">
-				<a href="" class="hvnb">
-					<div class="list-group shadow-sm">
-						<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/8.jpg);">
-						</div>
-						<div class="list-group-item">
-							<div class="mb-2">
-								<span class="active text-website">Rp29.500</span>
-							</div>
-							<p class="card-text text-dark">Mushroom Soup</p>
-							<div class="input-group mb-3">
-									<div class="input-group-prepend">
-										<button class="input-group-text">-</button>
-									</div>
-									<input type="text" class="form-control" value="1">
-									<div class="input-group-append">
-										<button class="input-group-text">+</button>
-									</div>
-							</div>
-						</div>
-						<div class="list-group-item btn-outline-success pl-3">
-							Add to Cart
-						</div>
-					</div>
-				</a>
-			</div>
-			<!-- Pemisah per produk -->
-
-			<!-- Akhir slot produk -->
 		</div>
+	</hr>
 </div>
 -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
