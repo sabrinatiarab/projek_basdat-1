@@ -68,7 +68,7 @@
 										<div class="input-group-prepend">
 											<button id="decrement"  class="input-group-text">-</button>
 										</div>
-										<input type="text" class="form-control" value="1">
+										<input type="text" class="form-control" value="2">
 										<div class="input-group-append">
 											<button id="increment" class="input-group-text">+</button>
 										</div>
@@ -98,7 +98,7 @@
 										<div class="input-group-prepend">
 											<button class="input-group-text">-</button>
 										</div>
-										<input type="text" class="form-control" value="1">
+										<input type="text" class="form-control" value="3">
 										<div class="input-group-append">
 											<button class="input-group-text">+</button>
 										</div>
@@ -128,7 +128,7 @@
 										<div class="input-group-prepend">
 											<button class="input-group-text">-</button>
 										</div>
-										<input type="text" class="form-control" value="1">
+										<input type="text" class="form-control" value="4">
 										<div class="input-group-append">
 											<button class="input-group-text">+</button>
 										</div>
@@ -158,7 +158,7 @@
 										<div class="input-group-prepend">
 											<button class="input-group-text">-</button>
 										</div>
-										<input type="text" class="form-control" value="1">
+										<input type="text" class="form-control" value="5">
 										<div class="input-group-append">
 											<button class="input-group-text">+</button>
 										</div>
@@ -188,7 +188,7 @@
 										<div class="input-group-prepend">
 											<button class="input-group-text">-</button>
 										</div>
-										<input type="text" class="form-control" value="1">
+										<input type="text" class="form-control" value="6">
 										<div class="input-group-append">
 											<button class="input-group-text">+</button>
 										</div>
@@ -218,7 +218,7 @@
 										<div class="input-group-prepend">
 											<button class="input-group-text">-</button>
 										</div>
-										<input type="text" class="form-control" value="1">
+										<input type="text" class="form-control" value="7">
 										<div class="input-group-append">
 											<button class="input-group-text">+</button>
 										</div>
@@ -248,7 +248,7 @@
 										<div class="input-group-prepend">
 											<button class="input-group-text">-</button>
 										</div>
-										<input type="text" class="form-control" value="1">
+										<input type="text" class="form-control" value="8">
 										<div class="input-group-append">
 											<button class="input-group-text">+</button>
 										</div>
@@ -278,7 +278,7 @@
 										<div class="input-group-prepend">
 											<button class="input-group-text">-</button>
 										</div>
-										<input type="text" class="form-control" value="1">
+										<input type="text" class="form-control" value="9">
 										<div class="input-group-append">
 											<button class="input-group-text">+</button>
 										</div>

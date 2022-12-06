@@ -14,127 +14,133 @@
       </div>
     </div>
     <!-- Page Header End -->
+	<hr>
 
-    <div class="container">
-		<div class="row align-items-center">
-			<!-- Awal slot produk -->
+	<form action="/beverages" method="POST">
+		@csrf
+		@method('post')
+		<div class="container">
+			<div class="row align-items-center">
+				<!-- Awal slot produk -->
 
-			<!-- Pemisah per produk -->
-			<div class="col-md-4">
-				<a href="{{url('/beverages')}}" class="hvnb">
-					<div class="list-group shadow-sm">
-						<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/1.jpg);">
-						</div>
-						<div class="list-group-item">
-							<div class="mb-2">
-								<span class="active text-website">Rp9.000</span>
+				<!-- Pemisah per produk -->
+				<div class="col-md-4">
+					<a href="{{url('/beverages')}}" class="hvnb">
+						<div class="list-group shadow-sm">
+							<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/1.jpg);">
 							</div>
-							<p class="card-text text-dark">Aqua 300ml</p>
-							<div class="input-group mb-3">
-									<div class="input-group-prepend">
-										<button class="input-group-text">-</button>
-									</div>
-									<input type="text" class="form-control" value="1">
-									<div class="input-group-append">
-										<button class="input-group-text">+</button>
-									</div>
+							<div class="list-group-item">
+								<div class="mb-2">
+									<span class="active text-website">Rp9.000</span>
+								</div>
+								<p class="card-text text-dark">Aqua 300ml</p>
+								<div class="input-group mb-3">
+										<div class="input-group-prepend">
+											<button class="input-group-text">-</button>
+										</div>
+										<input type="text" class="form-control" value="1">
+										<div class="input-group-append">
+											<button class="input-group-text">+</button>
+										</div>
+								</div>
+							</div>
+							<div class="list-group-item btn-outline-success pl-3">
+								Add to Cart
 							</div>
 						</div>
-						<div class="list-group-item btn-outline-success pl-3">
-							Add to Cart
+					</a>
+				</div>
+				<!-- Pemisah per produk -->
+
+				<!-- Pemisah per produk -->
+				<div class="col-md-4">
+					<a href="{{url('/beverages')}}" class="hvnb">
+						<div class="list-group shadow-sm">
+							<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/2.jpg);">
+							</div>
+							<div class="list-group-item">
+								<div class="mb-2">
+									<span class="active text-website">Rp19.000</span>
+								</div>
+								<p class="card-text text-dark">Carvonated Drinks 16oz</p>
+								<div class="input-group mb-3">
+										<div class="input-group-prepend">
+											<button class="input-group-text">-</button>
+										</div>
+										<input type="text" class="form-control" value="2">
+										<div class="input-group-append">
+											<button class="input-group-text">+</button>
+										</div>
+								</div>
+							</div>
+							<div class="list-group-item btn-outline-success pl-3">
+								Add to Cart
+							</div>
 						</div>
-					</div>
-				</a>
+					</a>
+				</div>
+				<!-- Pemisah per produk -->
+
+				<!-- Pemisah per produk -->
+				<div class="col-md-4">
+					<a href="{{url('/beverages')}}" class="hvnb">
+						<div class="list-group shadow-sm">
+							<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/3.jpg);">
+							</div>
+							<div class="list-group-item">
+								<div class="mb-2">
+									<span class="active text-website">Rp25.000</span>
+								</div>
+								<p class="card-text text-dark">Coffee Latte 8oz</p>
+								<div class="input-group mb-3">
+										<div class="input-group-prepend">
+											<button class="input-group-text">-</button>
+										</div>
+										<input type="text" class="form-control" value="3">
+										<div class="input-group-append">
+											<button class="input-group-text">+</button>
+										</div>
+								</div>
+							</div>
+							<div class="list-group-item btn-outline-success pl-3">
+								Add to Cart
+							</div>
+						</div>
+					</a>
+				</div>
+				<!-- Pemisah per produk -->
+
+				<!-- Pemisah per produk -->
+				<div class="col-md-4">
+					<a href="{{url('/beverages')}}" class="hvnb">
+						<div class="list-group shadow-sm">
+							<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/4.jpg);">
+							</div>
+							<div class="list-group-item">
+								<div class="mb-2">
+									<span class="active text-website">Rp17.000</span>
+								</div>
+								<p class="card-text text-dark">Minute Maid Pulpy Orange</p>
+								<div class="input-group mb-3">
+										<div class="input-group-prepend">
+											<button class="input-group-text">-</button>
+										</div>
+										<input type="text" class="form-control" value="4">
+										<div class="input-group-append">
+											<button class="input-group-text">+</button>
+										</div>
+								</div>
+							</div>
+							<div class="list-group-item btn-outline-success pl-3">
+								Add to Cart
+							</div>
+						</div>
+					</a>
+				</div>
+				<!-- Pemisah per produk -->
+
+				<!-- Akhir slot produk -->
 			</div>
-			<!-- Pemisah per produk -->
-
-			<!-- Pemisah per produk -->
-			<div class="col-md-4">
-				<a href="{{url('/beverages')}}" class="hvnb">
-					<div class="list-group shadow-sm">
-						<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/2.jpg);">
-						</div>
-						<div class="list-group-item">
-							<div class="mb-2">
-								<span class="active text-website">Rp19.000</span>
-							</div>
-							<p class="card-text text-dark">Carvonated Drinks 16oz</p>
-							<div class="input-group mb-3">
-									<div class="input-group-prepend">
-										<button class="input-group-text">-</button>
-									</div>
-									<input type="text" class="form-control" value="1">
-									<div class="input-group-append">
-										<button class="input-group-text">+</button>
-									</div>
-							</div>
-						</div>
-						<div class="list-group-item btn-outline-success pl-3">
-							Add to Cart
-						</div>
-					</div>
-				</a>
-			</div>
-			<!-- Pemisah per produk -->
-
-			<!-- Pemisah per produk -->
-			<div class="col-md-4">
-				<a href="{{url('/beverages')}}" class="hvnb">
-					<div class="list-group shadow-sm">
-						<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/3.jpg);">
-						</div>
-						<div class="list-group-item">
-							<div class="mb-2">
-								<span class="active text-website">Rp25.000</span>
-							</div>
-							<p class="card-text text-dark">Coffee Latte 8oz</p>
-							<div class="input-group mb-3">
-									<div class="input-group-prepend">
-										<button class="input-group-text">-</button>
-									</div>
-									<input type="text" class="form-control" value="1">
-									<div class="input-group-append">
-										<button class="input-group-text">+</button>
-									</div>
-							</div>
-						</div>
-						<div class="list-group-item btn-outline-success pl-3">
-							Add to Cart
-						</div>
-					</div>
-				</a>
-			</div>
-			<!-- Pemisah per produk -->
-
-			<!-- Pemisah per produk -->
-			<div class="col-md-4">
-				<a href="{{url('/beverages')}}" class="hvnb">
-					<div class="list-group shadow-sm">
-						<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/4.jpg);">
-						</div>
-						<div class="list-group-item">
-							<div class="mb-2">
-								<span class="active text-website">Rp17.000</span>
-							</div>
-							<p class="card-text text-dark">Minute Maid Pulpy Orange</p>
-							<div class="input-group mb-3">
-									<div class="input-group-prepend">
-										<button class="input-group-text">-</button>
-									</div>
-									<input type="text" class="form-control" value="1">
-									<div class="input-group-append">
-										<button class="input-group-text">+</button>
-									</div>
-							</div>
-						</div>
-						<div class="list-group-item btn-outline-success pl-3">
-							Add to Cart
-						</div>
-					</div>
-				</a>
-			</div>
-			<!-- Pemisah per produk -->
-
-			<!-- Akhir slot produk -->
 		</div>
+	</hr>
 </div>
