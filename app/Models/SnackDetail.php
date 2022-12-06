@@ -5,7 +5,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class sandwich extends Model
+class SnackDetail extends Model
 {
     use HasFactory;
+    
+    protected $fillable = ['snack'];
 }

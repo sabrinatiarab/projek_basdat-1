@@ -68,26 +68,6 @@
             </div>
             <div class="control-group">
               <div class="input-group">
-                <input type="text" class="form-control" placeholder="Provinsi" required="required" />
-                <div class="input-group-append">
-                  <div class="input-group-text">
-                    <i class="far fa-location"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="input-group">
-                <input type="text" class="form-control" placeholder="Kota" required="required" />
-                <div class="input-group-append">
-                  <div class="input-group-text">
-                    <i class="far fa-location"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="input-group">
                 <input type="text" class="form-control" placeholder="Kecamatan" required="required" />
                 <div class="input-group-append">
                   <div class="input-group-text">
@@ -117,7 +97,7 @@
               </div>
             </div>
             <div>
-              <a class="btn custom-btn" type="submit">Sign Up</a>
+              <a class="btn custom-btn" type="submit">Go Order</a>
             </div>
           </form>
         </div>
