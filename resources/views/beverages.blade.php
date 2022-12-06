@@ -21,7 +21,7 @@
 
 			<!-- Pemisah per produk -->
 			<div class="col-md-4">
-				<a href="{{url('/snack_detail')}}" class="hvnb">
+				<a href="{{url('/beverages')}}" class="hvnb">
 					<div class="list-group shadow-sm">
 						<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/1.jpg);">
 						</div>
@@ -50,7 +50,7 @@
 
 			<!-- Pemisah per produk -->
 			<div class="col-md-4">
-				<a href="{{url('/snack_detail')}}" class="hvnb">
+				<a href="{{url('/beverages')}}" class="hvnb">
 					<div class="list-group shadow-sm">
 						<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/2.jpg);">
 						</div>
@@ -79,7 +79,7 @@
 
 			<!-- Pemisah per produk -->
 			<div class="col-md-4">
-				<a href="{{url('/snack_detail')}}" class="hvnb">
+				<a href="{{url('/beverages')}}" class="hvnb">
 					<div class="list-group shadow-sm">
 						<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/3.jpg);">
 						</div>
@@ -108,7 +108,7 @@
 
 			<!-- Pemisah per produk -->
 			<div class="col-md-4">
-				<a href="{{url('/snack_detail')}}" class="hvnb">
+				<a href="{{url('/beverages')}}" class="hvnb">
 					<div class="list-group shadow-sm">
 						<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/4.jpg);">
 						</div>

@@ -15,6 +15,7 @@ class SandwichDetailController extends Controller
     public function store(Request $request)
     {
         $validatedData = $request->validate([
+            'sandwich' => "required",
             'bread' => "required",
             'size' => 'required',
             'extras' => 'required',

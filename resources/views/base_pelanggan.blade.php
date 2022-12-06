@@ -32,11 +32,11 @@
   <!-- Nav Bar Start -->
   <div class="navbar navbar-expand-lg bg-light navbar-light">
     <div class="container-fluid">
-      <a href="{{url('/index')}}" class="navbar-brand">Sub<span>Way</span></a>
+      <a href="{{url('/')}}" class="navbar-brand">Sub<span>Way </span> Sura<span>baya</span></a>
 
       <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
         <div class="navbar-nav ml-auto">
-          <a href="{{url('/index')}}" class="nav-item nav-link active">Home</a>
+          <a href="{{url('/')}}" class="nav-item nav-link active">Home</a>
           <a href="{{url('/feature')}}" class="nav-item nav-link">Feature</a>
           <a href="{{url('/menu')}}" class="nav-item nav-link">Order</a>
           <a href="{{url('/account')}}" class="nav-item nav-link">Account</a>

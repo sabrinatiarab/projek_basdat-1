@@ -9,7 +9,7 @@ class SandwichDetail extends Model
 {
     use HasFactory;
     
-    protected $fillable = ['bread','size','extras','veggies','sauces'];
+    protected $fillable = ['sandwich','bread','size','extras','veggies','sauces'];
     protected $casts = [
         'extras' => 'array',
         'veggies' => 'array',

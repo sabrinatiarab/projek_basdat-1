@@ -15,7 +15,7 @@ use App\Http\Controllers\SandwichDetailController;
 |
 */
 
-Route::get('/index', function () {
+Route::get('/', function () {
     return view('index');
 });
 Route::get('/login', function () {

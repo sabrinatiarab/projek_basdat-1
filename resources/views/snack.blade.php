@@ -17,7 +17,7 @@
     <!-- Page Header End -->
 	<hr>
 
-	<form action="/snack" method="POST">
+	<form action="/sides" method="POST">
 		@csrf
 		@method('post')
 		<div class="container">
@@ -26,6 +26,7 @@
 
 				<!-- Pemisah per produk -->
 				<div class="col-md-4">
+					<a href="{{url('/sides')}}" class="hvnb">
 						<div class="list-group shadow-sm">
 							<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/2.jpg);">
 							</div>
@@ -54,6 +55,7 @@
 
 				<!-- Pemisah per produk -->
 				<div class="col-md-4">
+					<a href="{{url('/sides')}}" class="hvnb">
 						<div class="list-group shadow-sm">
 							<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/2.jpg);">
 							</div>
@@ -82,6 +84,7 @@
 
 				<!-- Pemisah per produk -->
 				<div class="col-md-4">
+					<a href="{{url('/sides')}}" class="hvnb">
 					<a href="" class="hvnb">
 						<div class="list-group shadow-sm">
 							<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/3.jpg);">
@@ -111,6 +114,7 @@
 
 				<!-- Pemisah per produk -->
 				<div class="col-md-4">
+					<a href="{{url('/sides')}}" class="hvnb">
 					<a href="" class="hvnb">
 						<div class="list-group shadow-sm">
 							<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/4.jpg);">
@@ -140,6 +144,7 @@
 
 				<!-- Pemisah per produk -->
 				<div class="col-md-4">
+					<a href="{{url('/sides')}}" class="hvnb">
 					<a href="" class="hvnb">
 						<div class="list-group shadow-sm">
 							<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/5.jpg);">
@@ -169,6 +174,7 @@
 
 				<!-- Pemisah per produk -->
 				<div class="col-md-4">
+					<a href="{{url('/sides')}}" class="hvnb">
 					<a href="" class="hvnb">
 						<div class="list-group shadow-sm">
 							<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/6.jpg);">
@@ -198,6 +204,7 @@
 
 				<!-- Pemisah per produk -->
 				<div class="col-md-4">
+					<a href="{{url('/sides')}}" class="hvnb">
 					<a href="" class="hvnb">
 						<div class="list-group shadow-sm">
 							<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/7.jpg);">
@@ -227,6 +234,7 @@
 
 				<!-- Pemisah per produk -->
 				<div class="col-md-4">
+					<a href="{{url('/sides')}}" class="hvnb">
 					<a href="" class="hvnb">
 						<div class="list-group shadow-sm">
 							<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/8.jpg);">
@@ -256,6 +264,7 @@
 
 				<!-- Pemisah per produk -->
 				<div class="col-md-4">
+					<a href="{{url('/sides')}}" class="hvnb">
 					<a href="" class="hvnb">
 						<div class="list-group shadow-sm">
 							<div class="list-group-item gambar-produk" style="background: url(assets/img/produk/8.jpg);">
