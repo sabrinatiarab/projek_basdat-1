@@ -2,14 +2,14 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
-use App\Models\OrderDetail;
+use App\Models\SandwichDetail;
 
-class OrderDetailController extends Controller
+class SandwichDetailController extends Controller
 {
     //
     public function index()
     {
-        return view('sandwich_detail');
+        return view('sandwich');
     }
 
     public function store(Request $request)
@@ -23,7 +23,7 @@ class OrderDetailController extends Controller
             
         ]);
 
-        OrderDetail::create($validatedData);
+        SandwichDetail::create($validatedData);
         
         return redirect('/sandwich');
     }
