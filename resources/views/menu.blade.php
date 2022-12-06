@@ -29,9 +29,10 @@
             <i class="flaticon-burger"></i>
             <h2>Sandwiches</h2>
             <p>
-              Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit
-              facilis ornare velit non vulputa. Aliquam metus tortor auctor
-              quis sem.
+            A sandwich is a food typically consisting of vegetables, sliced
+            cheese or meat, placed on or between slices of bread, or more 
+            generally any dish wherein bread serves as a container or wrapper 
+            for another food type.
             </p>
           </div>
         </a>
@@ -42,9 +43,10 @@
             <i class="flaticon-snack"></i>
             <h2>Sides</h2>
             <p>
-              Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit
-              facilis ornare velit non vulputa. Aliquam metus tortor auctor
-              quis sem.
+            A snack is a small portion of food generally eaten between meals.
+            Snacks come in a variety of forms including packaged snack foods
+            and other processed foods, as well as items made from fresh
+            ingredients at home.
             </p>
           </div>
         </a>
@@ -55,9 +57,9 @@
             <i class="flaticon-cocktail"></i>
             <h2>Beverages</h2>
             <p>
-              Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit
-              facilis ornare velit non vulputa. Aliquam metus tortor auctor
-              quis sem.
+            A drink or beverage is a liquid intended for human consumption.
+            In addition to their basic function of satisfying thirst, drinks
+            play important roles in human culture.
             </p>
           </div>
         </a>
