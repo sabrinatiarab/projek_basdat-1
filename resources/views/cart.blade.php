@@ -32,21 +32,10 @@
         <div class="payment-form">
           <div class="payment-method">
             <button class="method">
-              <ion-icon name="card"></ion-icon>
-
-              <span>Bank Transfer</span>
-
-              <input class="checkmark" type="radio" name="pembayaran" value="bank_tf"/>
-              </button>
-              
-
-            <button class="method">
               <span>E-Money</span>
 
               <input class="checkmark" type="radio" name="pembayaran" value="e_money"/>
             </button>
-            
-
             <button class="method">
               <span>Cash on Delivery</span>
               <input class="checkmark" type="radio" name="pembayaran" value="cod"/>
