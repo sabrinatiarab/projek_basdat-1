@@ -298,7 +298,7 @@
 						</div>
 					</div>
 					<div class="w-full">
-						<button type="submit" class="w-full bg-[#719a0a] text-white hover:bg-lime-700 peer-checked:text-[#fbaf32]  font-bold py-2 px-4 rounded-lg">
+						<button type="submit" class="list-group-item btn-outline-success pl-3">
 							Add to Cart
 						</button>
 					</div>

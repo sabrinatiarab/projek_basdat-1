@@ -34,7 +34,7 @@
 								<div class="mb-2">
 									<span class="active text-website">Rp19.500</span>
 								</div>
-								<p class="card-text text-dark">Oatmeal Raisin Cookies</p>
+								<p value="1" class="card-text text-dark">Oatmeal Raisin Cookies</p>
 								<div class="input-group mb-3">
 										<div class="input-group-prepend">
 											<button id="decrement"  class="input-group-text">-</button>
@@ -45,8 +45,10 @@
 										</div>
 								</div>
 							</div>
-							<div class="list-group-item btn-outline-success pl-3">
-								Add to Cart
+							<div class="w-full">
+								<button type="submit" class="list-group-item btn-outline-success pl-3">
+									Add to Cart
+								</button>
 							</div>
 						</div>
 					</a>
@@ -63,19 +65,21 @@
 								<div class="mb-2">
 									<span class="active text-website">Rp19.500</span>
 								</div>
-								<p class="card-text text-dark">Chocolate Chip Cookie</p>
+								<p value="2" class="card-text text-dark">Chocolate Chip Cookie</p>
 								<div class="input-group mb-3">
 										<div class="input-group-prepend">
 											<button id="decrement"  class="input-group-text">-</button>
 										</div>
-										<input type="text" class="form-control" value="2">
+										<input type="text" class="form-control" value="1">
 										<div class="input-group-append">
 											<button id="increment" class="input-group-text">+</button>
 										</div>
 								</div>
 							</div>
-							<div class="list-group-item btn-outline-success pl-3">
-								Add to Cart
+							<div class="w-full">
+								<button type="submit" class="list-group-item btn-outline-success pl-3">
+									Add to Cart
+								</button>
 							</div>
 						</div>
 					</a>
@@ -93,19 +97,21 @@
 								<div class="mb-2">
 									<span class="active text-website">Rp19.500</span>
 								</div>
-								<p class="card-text text-dark">Double Chocolate Chip Cookie</p>
+								<p value="3" class="card-text text-dark">Double Chocolate Chip Cookie</p>
 								<div class="input-group mb-3">
 										<div class="input-group-prepend">
 											<button class="input-group-text">-</button>
 										</div>
-										<input type="text" class="form-control" value="">
+										<input type="text" class="form-control" value="1">
 										<div class="input-group-append">
 											<button class="input-group-text">+</button>
 										</div>
 								</div>
 							</div>
-							<div class="list-group-item btn-outline-success pl-3">
-								Add to Cart
+							<div class="w-full">
+								<button type="submit" class="list-group-item btn-outline-success pl-3">
+									Add to Cart
+								</button>
 							</div>
 						</div>
 					</a>
@@ -123,7 +129,7 @@
 								<div class="mb-2">
 									<span class="active text-website">Rp19.500</span>
 								</div>
-								<p class="card-text text-dark">White Chip Macadamia Nut Cookie</p>
+								<p value="4" class="card-text text-dark">White Chip Macadamia Nut Cookie</p>
 								<div class="input-group mb-3">
 										<div class="input-group-prepend">
 											<button class="input-group-text">-</button>
@@ -134,8 +140,10 @@
 										</div>
 								</div>
 							</div>
-							<div class="list-group-item btn-outline-success pl-3">
-								Add to Cart
+							<div class="w-full">
+								<button type="submit" class="list-group-item btn-outline-success pl-3">
+									Add to Cart
+								</button>
 							</div>
 						</div>
 					</a>
@@ -153,7 +161,7 @@
 								<div class="mb-2">
 									<span class="active text-website">Rp17.500</span>
 								</div>
-								<p class="card-text text-dark">Chicken Slice and Cheese</p>
+								<p value="5" class="card-text text-dark">Chicken Slice and Cheese</p>
 								<div class="input-group mb-3">
 										<div class="input-group-prepend">
 											<button class="input-group-text">-</button>
@@ -164,8 +172,10 @@
 										</div>
 								</div>
 							</div>
-							<div class="list-group-item btn-outline-success pl-3">
-								Add to Cart
+							<div class="w-full">
+								<button type="submit" class="list-group-item btn-outline-success pl-3">
+									Add to Cart
+								</button>
 							</div>
 						</div>
 					</a>
@@ -183,7 +193,7 @@
 								<div class="mb-2">
 									<span class="active text-website">Rp17.500</span>
 								</div>
-								<p class="card-text text-dark">Egg Mayo Toasty</p>
+								<p value="6" class="card-text text-dark">Egg Mayo Toasty</p>
 								<div class="input-group mb-3">
 										<div class="input-group-prepend">
 											<button class="input-group-text">-</button>
@@ -194,8 +204,10 @@
 										</div>
 								</div>
 							</div>
-							<div class="list-group-item btn-outline-success pl-3">
-								Add to Cart
+							<div class="w-full">
+								<button type="submit" class="list-group-item btn-outline-success pl-3">
+									Add to Cart
+								</button>
 							</div>
 						</div>
 					</a>
@@ -213,7 +225,7 @@
 								<div class="mb-2">
 									<span class="active text-website">Rp17.500</span>
 								</div>
-								<p class="card-text text-dark">Pringles Original</p>
+								<p value="7" class="card-text text-dark">Pringles Original</p>
 								<div class="input-group mb-3">
 										<div class="input-group-prepend">
 											<button class="input-group-text">-</button>
@@ -224,8 +236,10 @@
 										</div>
 								</div>
 							</div>
-							<div class="list-group-item btn-outline-success pl-3">
-								Add to Cart
+							<div class="w-full">
+								<button type="submit" class="list-group-item btn-outline-success pl-3">
+									Add to Cart
+								</button>
 							</div>
 						</div>
 					</a>
@@ -243,7 +257,7 @@
 								<div class="mb-2">
 									<span class="active text-website">Rp17.500</span>
 								</div>
-								<p class="card-text text-dark">Pringles Sour Cream and Onion</p>
+								<p value="8" class="card-text text-dark">Pringles Sour Cream and Onion</p>
 								<div class="input-group mb-3">
 										<div class="input-group-prepend">
 											<button class="input-group-text">-</button>
@@ -254,8 +268,10 @@
 										</div>
 								</div>
 							</div>
-							<div class="list-group-item btn-outline-success pl-3">
-								Add to Cart
+							<div class="w-full">
+								<button type="submit" class="list-group-item btn-outline-success pl-3">
+									Add to Cart
+								</button>
 							</div>
 						</div>
 					</a>
@@ -273,7 +289,7 @@
 								<div class="mb-2">
 									<span class="active text-website">Rp29.500</span>
 								</div>
-								<p class="card-text text-dark">Mushroom Soup</p>
+								<p value="9" class="card-text text-dark">Mushroom Soup</p>
 								<div class="input-group mb-3">
 										<div class="input-group-prepend">
 											<button class="input-group-text">-</button>
@@ -284,8 +300,10 @@
 										</div>
 								</div>
 							</div>
-							<div class="list-group-item btn-outline-success pl-3">
-								Add to Cart
+							<div class="w-full">
+								<button type="submit" class="list-group-item btn-outline-success pl-3">
+									Add to Cart
+								</button>
 							</div>
 						</div>
 					</a>

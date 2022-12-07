@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SandwichDetailController;
+use App\Http\Controllers\SnackDetailController;
+use App\Http\Controllers\BeveragesDetailController;
 
 
 /*
@@ -51,30 +53,15 @@ Route::get('/sides', function () {
 Route::get('/beverages', function () {
     return view('beverages');
 });
-// });
-// // Route::post('sandwich', [SandwichDetailController::class, 'getData']);
 
-// Route::post('sandwich', function (){
-//     OrderDetail::create([
-//         'bread' -> request('bread'),
-//         'size' -> request('size'),
-//         'extras' -> request('extras'),
-//         'veggies' -> reqest('veggies'),
-//         'sauces' -> request('sauces')
-//     ]);
-//     return redirect('/sandwich');
-//     return view('sandwich');
-// });
-
-// });
 Route::get('/sandwich', [SandwichDetailController::class, "index"]);
 Route::post('/sandwich', [SandwichDetailController::class, "store"]);
 
-// Route::get('/sides', [OrderDetailController::class, "index"]);
-// Route::post('/sides', [OrderDetailController::class, "store"]);
+Route::get('/sides', [SnackDetailController::class, "index"]);
+Route::post('/sides', [SnackDetailController::class, "store"]);
 
-// Route::get('/beverages', [OrderDetailController::class, "index"]);
-// Route::post('/beverages', [OrderDetailController::class, "store"]);
+Route::get('/beverages', [BeveragesDetailController::class, "index"]);
+Route::post('/beverages', [BeveragesDetailController::class, "store"]);
 
 Route::get('/daftar_pegawai', function () {
     return view('/daftar_pegawai');
