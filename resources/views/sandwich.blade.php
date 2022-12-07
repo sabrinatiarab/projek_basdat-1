@@ -64,7 +64,8 @@
 									<input id="ib" type="radio" value="6" name="sandwich" class="peer opacity-0  h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 focus:ring-2 ">
 									<label for="ib" class="flex cursor-pointer rounded-r  bg-gray-200 justify-center items-center h-10 w-full peer-checked:bg-[#719a0a] peer-checked:text-white text-[14px] text-sm font-medium text-gray-900">Italian B.M.T</label>
 									</label>
-								</li><li>
+								</li>
+								<li>
 									<input id="em" type="radio" value="7" name="sandwich" class="peer opacity-0  h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 focus:ring-2">
 									<label for="em" class="flex cursor-pointer rounded-l bg-gray-200 justify-center items-center h-10 w-full peer-checked:bg-[#719a0a] peer-checked:text-white text-[14px] text-sm font-medium text-gray-900">Egg Mayo</label>
 									</label>
@@ -78,7 +79,8 @@
 									<input id="bc" type="radio" value="9" name="sandwich" class="peer opacity-0  h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 focus:ring-2 ">
 									<label for="bc" class="flex cursor-pointer rounded-r  bg-gray-200 justify-center items-center h-10 w-full peer-checked:bg-[#719a0a] peer-checked:text-white text-[14px] text-sm font-medium text-gray-900">BBQ Chicken</label>
 									</label>
-								</li><li>
+								</li>
+								<li>
 									<input id="rc" type="radio" value="10" name="sandwich" class="peer opacity-0  h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 focus:ring-2">
 									<label for="rc" class="flex cursor-pointer rounded-l bg-gray-200 justify-center items-center h-10 w-full peer-checked:bg-[#719a0a] peer-checked:text-white text-[14px] text-sm font-medium text-gray-900">Roast Chicken</label>
 									</label>
@@ -284,26 +286,26 @@
 
 
 
-				<hr>
-				<div class="grid grid-cols-2 flex ">
-					<div class="col-sm-12 col-lg-8">
-						<div class="input-group mb-3">
-							<div class="input-group-prepend">
-								<button class="input-group-text">-</button>
-							</div>
-							<input type="text" class="form-control" value="1">
-							<div class="input-group-append">
-								<button class="input-group-text">+</button>
+					<hr>
+					<div class="grid grid-cols-2 flex ">
+						<div class="col-sm-12 col-lg-8">
+							<div class="input-group mb-3">
+								<div class="input-group-prepend">
+									<button class="input-group-text">-</button>
+								</div>
+								<input type="text" class="form-control" value="1">
+								<div class="input-group-append">
+									<button class="input-group-text">+</button>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="w-full">
-						<button type="submit" class="list-group-item btn-outline-success pl-3">
-							Add to Cart
-						</button>
-					</div>
+						<div class="w-full">
+							<button type="submit" class="list-group-item btn-outline-success pl-3">
+								Add to Cart
+							</button>
+						</div>
 
-				</div>
+					</div>
 				</form>
 
 			</div>
