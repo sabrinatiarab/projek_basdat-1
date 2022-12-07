@@ -16,6 +16,8 @@ return new class extends Migration
         Schema::create('snack_details', function (Blueprint $table) {
             $table->id();
             $table->integer('snack');
+            $table->timestamp('updated_at')->nullable();
+            $table->timestamp('created_at')->nullable();
         });
     }
 

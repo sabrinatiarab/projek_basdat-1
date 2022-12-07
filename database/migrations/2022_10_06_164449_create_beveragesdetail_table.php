@@ -13,9 +13,11 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('beverages_details', function (Blueprint $table) {
+        Schema::create('beverage_details', function (Blueprint $table) {
             $table->id();
-            $table->integer('beverages');
+            $table->integer('beverage');
+            $table->timestamp('updated_at')->nullable();
+            $table->timestamp('created_at')->nullable();
         });
     }
 
@@ -26,6 +28,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('beverages_details');
+        Schema::dropIfExists('beverage_details');
     }
 };

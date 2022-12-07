@@ -2,24 +2,24 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
-use App\Models\BeveragesDetail;
+use App\Models\BeverageDetail;
 
-class BeveragesDetailController extends Controller
+class BeverageDetailController extends Controller
 {
     //
     public function index()
     {
-        return view('beverages');
+        return view('beverage');
     }
 
     public function store(Request $request)
     {
         $validatedData = $request->validate([
-            'beverages' => "required"
+            'beverage' => "required"
         ]);
 
-        BeveragesDetail::create($validatedData);
+        BeverageDetail::create($validatedData);
         
-        return redirect('/beverages');
+        return redirect('/beverage');
     }
 }

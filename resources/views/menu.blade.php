@@ -52,10 +52,10 @@
         </a>
       </div>
       <div class="col-md-4">
-        <a href="{{url('/beverages')}}" class="hvnb">
+        <a href="{{url('/beverage')}}" class="hvnb">
           <div class="food-item">
             <i class="flaticon-cocktail"></i>
-            <h2>Beverages</h2>
+            <h2>Beverage</h2>
             <p>
             A drink or beverage is a liquid intended for human consumption.
             In addition to their basic function of satisfying thirst, drinks

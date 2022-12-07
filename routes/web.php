@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SandwichDetailController;
 use App\Http\Controllers\SnackDetailController;
-use App\Http\Controllers\BeveragesDetailController;
+use App\Http\Controllers\BeverageDetailController;
 
 
 /*
@@ -50,8 +50,8 @@ Route::get('/sandwich', function () {
 Route::get('/sides', function () {
     return view('snack');
 });
-Route::get('/beverages', function () {
-    return view('beverages');
+Route::get('/beverage', function () {
+    return view('beverage');
 });
 
 Route::get('/sandwich', [SandwichDetailController::class, "index"]);
@@ -60,8 +60,8 @@ Route::post('/sandwich', [SandwichDetailController::class, "store"]);
 Route::get('/sides', [SnackDetailController::class, "index"]);
 Route::post('/sides', [SnackDetailController::class, "store"]);
 
-Route::get('/beverages', [BeveragesDetailController::class, "index"]);
-Route::post('/beverages', [BeveragesDetailController::class, "store"]);
+Route::get('/beverage', [BeverageDetailController::class, "index"]);
+Route::post('/beverage', [BeverageDetailController::class, "store"]);
 
 Route::get('/daftar_pegawai', function () {
     return view('/daftar_pegawai');
